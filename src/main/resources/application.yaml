@@ -1,6 +1,9 @@
 spring:
   application:
     name: puskesmas-saas
+  threads:
+    virtual:
+      enabled: true
   datasource:
     url: jdbc:postgresql://localhost:5432/mydatabase
     username: myuser
